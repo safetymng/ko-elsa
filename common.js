@@ -8,9 +8,14 @@ function login() {
     }
     
 }
+
+function getKeyEventCode() {
+
+}
+
+
 var input = document.getElementById("pw");
 
-input.addEventListener("keyup", function (event) {
-    console.log(event.keyCode);
-    console.log(event.code);
+input.addEventListener("keyup", (event) => {
+    console.log(event);
 });
