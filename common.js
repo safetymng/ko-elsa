@@ -10,5 +10,5 @@ function login() {
 }
 
 document.addEventListener('keyup', (event) => {
-    console.log.apply(event);
+    console.log(event);
 });
