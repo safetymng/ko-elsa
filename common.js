@@ -8,3 +8,4 @@ function login() {
     }
     
 }
+var input = document.getElementById("pw");
