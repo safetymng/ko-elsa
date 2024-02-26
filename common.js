@@ -3,10 +3,12 @@ function login() {
 
     var pw = document.querySelector('#pw');
 
-    if(pw.value == "Koelsa") { 
+    if(pw.value == "Koelsa") {
+        pw.value = "";
         location.href = '안전보건관리 가이드.html';
     } else {
-        alert("비밀번호를 확인해 주세요.");
+        pw.value = "";
+        alert("코드를 확인해 주세요.");
     }
     
 }
