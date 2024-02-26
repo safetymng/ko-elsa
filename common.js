@@ -10,5 +10,7 @@ function login() {
 }
 
 document.addEventListener('keyup', (event) => {
-    console.log(event);
+    if (event.key == 'Enter') {
+        login();
+    }
 });
