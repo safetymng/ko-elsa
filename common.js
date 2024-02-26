@@ -9,8 +9,16 @@ function login() {
     
 }
 
-document.addEventListener('keyup', (event) => {
-    if (event.key == 'Enter') {
-        login();
-    }
-});
+window.onload = function() {
+    document.querySelector('#pw').addEventListener("keyup", (event) => {
+        if (event.key == 'Enter') {
+            login();
+        }
+    });
+};
+
+// document.addEventListener('keyup', (event) => {
+//     if (event.key == 'Enter') {
+//         login();
+//     }
+// });
